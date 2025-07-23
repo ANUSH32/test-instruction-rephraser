@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///project/sandbox/user-workspace/src/app/layout.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\nimport \"./globals.css\";\n\nexport const metadata = {\n  title: \"Test Instruction Rephraser\",\n  description: \"Rephrase test instructions using Cohere API\",\n};\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang=\"en\">\n      <body>{children}</body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAKO,MAAM,WAAW;IACtB,OAAO;IACP,aAAa;AACf;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,6LAAC;QAAK,MAAK;kBACT,cAAA,6LAAC;sBAAM;;;;;;;;;;;AAGb;KAVwB","debugId":null}}]
+}
